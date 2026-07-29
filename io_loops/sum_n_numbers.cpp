@@ -11,7 +11,7 @@ int main(){
     for(int i=0; i<=n; ++i)
         sum=sum+i;
     
-    cout<<"Sumof "<<n;
+    cout<<"Sum of "<<n;
     cout<<" number is: "<<sum<<endl;
     
     return 0; //Signals everything worked fine
