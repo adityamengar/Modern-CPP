@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 int main(){
-    double x;
+    double x;  // allocats 8 bytes of memory
     cout<<"Input Number: "<<endl;
     cin>>x;
 
