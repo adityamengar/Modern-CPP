@@ -7,5 +7,9 @@ int main(){
     cin>>cout;
 
     vector<int> arr;
+    arr.resize(count);
+    for(int i=0; i<arr.size(); i++){
+        arr[i]=i; sum += arr[i];
+    }
     
 }
