@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    string name;//Declaring a string variables to store the 
+    string name;//Declaring a string variables to store the name
     string name2;
     int age;
     cout<<"Enter your nick name: ";
