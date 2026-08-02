@@ -5,10 +5,10 @@ int main(){
     //adding students in diff ways
     //students = students + 1;
     //studennts+=1;
-    //students++;
+    students++;
     //students=students-1;
     //students-=1;
-    students--;
+    //students--;
     //Multiplication -> students*=2;
     //division -> students/=2; by using  double we can get decimal values
 
