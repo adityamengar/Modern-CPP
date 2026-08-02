@@ -15,6 +15,6 @@ int main(){
 
     cout<<"Your full name is : "<<name2<<endl;
     cout<<"Your age is "<<age<<endl;
-    cout<<"Nick name: "<<name<<endl;
+    cout<<"Nick name: "<<name<<
     return 0;
 }
