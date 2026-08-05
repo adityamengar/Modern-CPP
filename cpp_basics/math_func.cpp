@@ -17,3 +17,6 @@ int main(){
     z=floor(x);
     cout<<z<<endl;
 }
+
+//we can find more C++ functions on website 
+//cplusplus.com related to cmath library
