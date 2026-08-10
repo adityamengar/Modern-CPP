@@ -8,5 +8,5 @@ int main(){
     double result;
     cout<<"-----CALCULATOR-----"<<endl;
     cout<<"Enter either(+,-,*,/) : ";
-    cin>>op;
+    cin>>op
 }
