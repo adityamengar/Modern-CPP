@@ -11,6 +11,7 @@ int main(){
     //number%2 ? cout<<"ODD" : cout<<"EVEN";
     
     bool hungry = true;
-    hungry
+    //hungry ?cout<<"You are hungry! " : cout<<"You are FULL! ";
+    cout<<(hungry ? "You are hungry! " : "You are FULL! ");
     return 0;
 }
