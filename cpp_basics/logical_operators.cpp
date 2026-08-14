@@ -8,12 +8,13 @@ int main(){
     cout<<"Enter the temperature in Celcius: ";
     cin>>temp;
 
-    if(temp>0 && temp<30){
-        cout<<"The temperature is good today! ";
+    //if(temp>0 && temp<30){  (OR)
+    if(temp<=0 || temp>=30){
+        cout<<"The temperature is bad today! ";
 
     }
     else{
-        cout<<"The temperature is bad today! ";
+        cout<<"The temperature is good today! ";
     }
 return 0;
 }
