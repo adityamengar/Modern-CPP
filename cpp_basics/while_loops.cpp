@@ -6,5 +6,5 @@ int main(){
         cout<<"Enter You Name: ";
         getline(cin,name);
     }
-    cout<<"hELLO "<<name<<endl;
+    cout<<"HELLO "<<name<<endl;
 }
