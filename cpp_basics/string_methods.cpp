@@ -11,12 +11,16 @@ int main(){
         cout<<"Welcome "<<name;
     }*/
    
-    if(name.empty()){
+    /*if(name.empty()){
     cout<<"You didn't Enter Your Name";
-
    }
    else{
     cout<<"Hello "<<name;
-   }
+   }*/
+    //name.clear(); //clears the name
+    name.append("@gmail.com");
+    cout<<"Your Username is now: "<<name;
+    
+  
     return 0;
 }
