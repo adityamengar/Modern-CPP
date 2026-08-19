@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-    for(int i=1; i<=3; i++){
-        cout<<"HAPPY NEW YEAR \n";
-
+    for(int i=1; i<=10; i++){
+        cout<<i<<'\n';
     }
+    cout<<"HAPPY NEW YEAR! \n";
 }
