@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
+    //Nested loops consist of this Format
+    //loops(
+    //     loop()
+    //     )
     int row;
     int column;
     char symbol;
