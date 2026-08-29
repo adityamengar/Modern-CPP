@@ -19,3 +19,7 @@ void printNum(){
     int myNum = 2; //this is local variable
     cout<<myNum<<endl;
 }
+
+//the global variable i used in this program for example is less secure than
+//using the local variable 
+// so the local variable is more recommended as it is secure to use
