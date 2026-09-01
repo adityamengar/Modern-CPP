@@ -4,3 +4,4 @@ using namespace std;
 
 void showBalance(double balance);
 double deposit();
+double withdraw(double ballance);
