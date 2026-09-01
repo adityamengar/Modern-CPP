@@ -11,6 +11,7 @@ int main()
     double balance = 0;
     int choice = 0;
     do{
+        cout<<"*********************\n";
 
     }while()
 }
