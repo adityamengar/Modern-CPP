@@ -15,6 +15,7 @@ int main()
         cout<<"Enter You Choice: \n";
         cout<<"*********************\n";
         cout<<"1. Show Balance\n";
+        cout<<"2. Deposit Money\n";
 
     }while()
 }
