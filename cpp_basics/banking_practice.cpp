@@ -13,7 +13,7 @@ int main()
     do{
         cout<<"*********************\n";
         cout<<"Enter You Choice: \n";
-        cout<<"";
+        cout<<"*********************\n";
 
     }while()
 }
