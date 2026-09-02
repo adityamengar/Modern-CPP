@@ -14,6 +14,7 @@ int main()
         cout<<"*********************\n";
         cout<<"Enter You Choice: \n";
         cout<<"*********************\n";
+        cout<<"1. Show Balance\n";
 
     }while()
 }
