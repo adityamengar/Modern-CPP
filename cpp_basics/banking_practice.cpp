@@ -16,6 +16,34 @@ int main()
         cout<<"*********************\n";
         cout<<"1. Show Balance\n";
         cout<<"2. Deposit Money\n";
+        cout<<"3. Withdraw Money\n";
+        cout<<"4. EXIT\n";
+        cin>>choice;
+        switch(choice)
+        {
+            case 1:
+                showBalance(balance);
+                break;
+            case 2:
+                balance += deposit();
+                break;
+            case 3:
+                balance = withdraw(balance);
+                break;
+            case 4:
+                cout<<"Thank You for Banking with us\n";
+                break;
+            default:
+                cout<<"Invalid Choice\n";
+        }
+    }while(choice != 4);
+    return 0;
+}
 
-    }while()
+void showBalance(double balance){
+    cout<<"Your Balance is : "<<balance<<endl;
+}
+
+double deposit(){
+    return 0;
 }
