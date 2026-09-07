@@ -20,8 +20,8 @@ int main()
         cout<<"4. EXIT\n";
         cin>>choice;
 
-        cin.clear();
-        fflush(stdin);
+        cin.clear();// Clear the error flag on cin
+        fflush(stdin);// Clear the input buffer to avoid infinite loop on invalid input
         switch(choice)
         {
             case 1:
