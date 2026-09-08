@@ -21,7 +21,7 @@ int main(){
     chooseWinner(player,computer);
     return 0;
 }
-
+//USERCHOOSES R,P,S
 char getUserchoice(){
     char player;
     cout<<"Rock Paper Scissors Game !\n";
