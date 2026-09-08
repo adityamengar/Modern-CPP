@@ -38,7 +38,7 @@ char getUserchoice(){
         return player;
 }
 
-char getComputerchoice(){
+char getComputerchoice(){//Computer Chooses Randomly
     srand(time(0));
     int num = rand()%3+1;
     switch(num){
@@ -46,6 +46,7 @@ char getComputerchoice(){
         case 2: return 'p';
         case 3: return 's';
     }
+    
 }
 
 void showChoice(char Choice){
