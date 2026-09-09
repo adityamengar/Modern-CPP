@@ -60,7 +60,7 @@ void showChoice(char Choice){
     }
 
 }
-
+// Choosing Winner 
 void chooseWinner(char player, char computer){
     switch(player){
         case 'r':   if(computer =='r'){
