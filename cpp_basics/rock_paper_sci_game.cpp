@@ -48,7 +48,7 @@ char getComputerchoice(){//Computer Chooses Randomly
     }
     
 }
-
+// To Show The Choices 
 void showChoice(char Choice){
     switch(Choice){
         case 'r': cout<<"Rock\n";
