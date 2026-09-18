@@ -6,5 +6,5 @@ int main(){
     //       "Kind of like a variable that holds multiple values" 
     string car[] = {"TATA";"MUSTANG","DEFENDER"};
     cout<<car;
-    
+    return 0;
 }
